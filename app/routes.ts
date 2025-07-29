@@ -3,6 +3,6 @@ import { type RouteConfig, index, layout, route } from "@react-router/dev/routes
 export default [
     layout('routes/admin/admin-layout.tsx', [
         route("dashboard", "routes/admin/dashboard.tsx"),
-        route("allUsers", "routes/admin/All_users.tsx")
+        route("all-users", "routes/admin/All_users.tsx")
     ])
 ] satisfies RouteConfig;
